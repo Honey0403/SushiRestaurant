@@ -319,7 +319,16 @@ a {
   }
 }
 /* END: trending media queries */
-
+@media screen and (max-width: 550px) {
+  .footer__social{
+    display:flex;
+    justify-content: space-between
+  }
+  .footer__nav{
+    display:flex;
+    flex-direction: column;
+  }
+}
 
   
-}
+
